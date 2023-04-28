@@ -1,14 +1,11 @@
 class Solver
   def factorial(number)
-    result = 1
     if number.zero?
       1
     elsif number.negative?
       'Only positive numbers are allowed'
     else
-      result = factorial(number - 1) * number
-      number -= 1
-      result
+      factorial(number - 1) * number
     end
   end
 
