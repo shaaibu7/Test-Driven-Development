@@ -1,12 +1,8 @@
 class Solver
   def factorial(number)
-    if number.zero?
-      1
-    elsif number.negative?
-      'Only positive numbers are allowed'
-    else
-      factorial(number - 1) * number
-    end
+    raise Exception, 'Cannot find factorial of negative numbers' if number.negative?
+
+    number.zero? ? 1 : factorial(number - 1) * number
   end
 
   def reverse(str)
