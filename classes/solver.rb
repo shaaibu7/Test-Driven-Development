@@ -1,12 +1,12 @@
 class Solver
   def factorial(number)
-    raise Exception, 'Cannot find factorial of negative numbers' if number.negative?
+    raise ArgumentError, 'Cannot find factorial of negative numbers' if number.negative?
 
     number.zero? ? 1 : factorial(number - 1) * number
   end
 
   def reverse(str)
-    return 'Only string parameters are allowed' unless str.is_a? String
+    raise ArgumentError, 'Only string parameters are allowed' unless str.is_a? String
 
     return 'What do you expect to be the reverse of an empty string?' if str.empty?
 

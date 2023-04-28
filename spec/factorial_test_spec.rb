@@ -11,7 +11,7 @@ describe Solver do
     end
 
     it 'Should return an error for negative numbers' do
-      expect { @factorial.factorial(-2) }.to raise_exception(Exception)
+      expect { @factorial.factorial(-2) }.to raise_exception(ArgumentError)
     end
 
     it 'Should return factorial of positive numbers' do

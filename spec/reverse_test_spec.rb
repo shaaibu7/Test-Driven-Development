@@ -7,7 +7,7 @@ describe Solver do
     end
 
     it 'Should return an error for input that is not string' do
-      expect(@solver.reverse(12)).to eq 'Only string parameters are allowed'
+      expect { @solver.reverse(12) }.to raise_exception(ArgumentError)
     end
 
     it 'Should return an error for empty string' do
