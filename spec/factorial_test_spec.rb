@@ -1,7 +1,6 @@
 require_relative '../classes/solver'
 
 describe Solver do
-  
   context 'Test for factorial of any number' do
     before(:context) do
       @factorial = Solver.new

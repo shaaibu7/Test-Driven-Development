@@ -1,16 +1,22 @@
 class Solver
-  def factorial(n)
+  def factorial(number)
     result = 1
-    if n == 0
-      return 1
-    elsif n < 0
-      return 'Only positive numbers are allowed'
+    if number.zero?
+      1
+    elsif number.negative?
+      'Only positive numbers are allowed'
     else
-      result = factorial(n - 1) * n
-      n -= 1
+      result = factorial(number - 1) * number
+      number -= 1
       result
     end
   end
 
+  def reverse(str)
+    return 'Only string parameters are allowed' unless str.is_a? String
 
+    return 'What do you expect to be the reverse of an empty string?' if str.empty?
+
+    str.reverse
+  end
 end
