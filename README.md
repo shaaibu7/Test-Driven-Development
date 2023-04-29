@@ -114,13 +114,13 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Larissa Clarielle**
 
 - GitHub: [Tao (Larissa)](https://github.com/rica213)
 - Twitter: [@alc3and](https://twitter.com/alc3and)
 - LinkedIn: [Larissa Clarielle](https://linkedin.com/in/larissa-clarielle)
 
-👤 **Author2**
+👤 **Shaaibu Suleiman**
 
 - GitHub: [Shaaibu](https://github.com/shaaibu7)
 - Twitter: [Shaaibu](https://twitter.com/SuleimanShaaibu?t=EAqVJrP59poEb2W46kK9vg&s=09)
